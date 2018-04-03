@@ -1,0 +1,157 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Lato!important;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar-brand{ 
+  background:  url(img/teamlogo.png) left / contain no-repeat;
+  width: 200px;
+}
+.navbar-default{
+	border-bottom:none!important;
+}
+.parallax {
+    height: 600px;
+	background-image:url(img/back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align:center;
+	z-index:1;
+	transform: translate3d(0px, 0px, 0px);
+}
+.container-fluid{
+    padding-left: 20px!important;
+    padding-right:20px!important;
+}
+.intro{
+	font-size: 130%;
+	text-align: center;
+	color: #fff;
+	padding:20px;
+	letter-spacing:0.7px;
+	margin-top:15%;
+}
+.main-raised{
+	margin: -60px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.main{
+	background: #FFFFFF;
+    position: relative;
+    z-index: 3;
+}
+.team-text{ 
+    color:black;
+	letter-spacing: 1px;
+	text-align: left;
+	position:center;
+	padding:50px;
+}
+.car-info{
+	top:20%;  
+    background:#FFFFFF;
+	color:black;
+	padding: 50px;
+	letter-spacing: 1px;
+}
+.vegaimg{
+    margin-top:5%;
+	margin-bottom:1%;
+	transition:all 0.5s;
+	box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	border-radius:6px!important;
+	transition-timing-function:ease;
+}
+.vegaimg:hover {
+	transform:scale(1.05);
+}
+
+.sponsors{
+	padding:50px;
+	letter-spacing: 1px;
+	margin-top:-5%;
+}
+.main1{
+	background: #FFFFFF;
+    position: relative;
+    z-index: 6;
+}
+.raised{
+	margin: -60px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.parallax3{
+	height: 50%;
+	background-image:url(img/team4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team{
+    background: white;
+	color:black;
+    padding: 20px;
+	letter-spacing: 1px;
+}
+.img-circle{
+box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);	
+}
+.team1{
+	font-size: 110%;
+	letter-spacing: 1px;
+	padding: 50px;
+}
+
+.gallery{
+	border-radius:6px;
+	padding-top:5%;
+    background: white;
+	color:black;
+	margin-top:5px;
+    padding: 50px;
+	letter-spacing: 1px;
+}
+.img1{
+    margin-top:5%;
+	margin-bottom:1%;
+	margin-left:1%;
+	border-radius: 6px !important;
+	box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.parallax1{
+	background:url(img/b1.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment:fixed;
+	height:200px;
+}
+.form{
+	height:50%;
+	background:linear-gradient(to right, #243B55, #141E30);
+	
+}
+.footer-section{
+
+	background: white;	
+	padding-left: 5%;
+	padding-top:5%;
+
+}
+
+.footer img{	
+	height: 100%;
+	width: 100%;
+}
