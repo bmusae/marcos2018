@@ -1,613 +1,641 @@
 <html lang="en">
+
 <head>
-  <title>BMU SAE</title>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" href="img/teamlogo.png" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="final.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-   <script>
-	$(document).ready(function(){
-	$('body').scrollspy({target: ".navbar", offset: 50});
-	$("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-        window.location.hash = hash;
+	<title>BMU SAE</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/teamlogo.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="final.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script>
+		$(document).ready(function () {
+			$('body').scrollspy({ target: ".navbar", offset: 50 });
+			$("a").on('click', function (event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 1000, function () {
+						window.location.hash = hash;
+					});
+				}
+			});
 		});
-		}
-	});
-});
 	</script>
 </head>
+
 <body style="background-color:#E5E5E5;position:relative;">
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-101601478-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand"><p align="center">BMU SAE</p>
-        </a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right ">
-          <li class="active"><a class="head" href="#home">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-		  <li><a  href="#car">Our Car</a></li>
-		  <li><a href="#sponsors">Sponsors</a></li>
-          <li class="dropdown">
-            <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Membership<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#team">Team</a></li>
-              <li class="divider"></li>
-              <li><a href="#alumni">Alumni</a></li>
-            </ul>
-          </li>
-		  <li><a  href="#gallery">Gallery</a></li>
-		  <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-</nav>
-<div class="parallax">
-	<div class="container-fluid" id="home">
-	<div class="intro">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<h1>BMU SAE</h1>
-			</div>
-		<div class="col-xs-12 col-sm-12 col-md-12">
-			<p>
-				SAE collegiate club of BMU provides a platform for young gearheads to show their aptitude in the
-			fields of 3D modelling, design, analysis, and manufacturing of automobiles, irrespective of their
-			engineering discipline. It is a place where teamwork is not aspired, but achieved, and the concept of
-			team synergy comes to life and each of the individual's potential is harnessed and nurtured. Each
-			member's complementing ability to the others is what holds and strengthens the bond between its
-			members which helps them to learn and grow.
-			</p>
-		</div>
-		</div>
-	</div>
-	</div>
-</div>
-<div  class="main main-raised">
-<div class="container-fluid">
-	<div class="team-text" id="about">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-			<h3 style="letter-spacing:2px;">Team Marcos</h3><br>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-sm-push-8 col-md-4 col-md-push-8">
-				<img src="img/teamlogo.png" class="img-responsive center-block" alt="Team Logo">
-			</div>
-			<div class="col-xs-12 col-sm-8 col-sm-pull-4 col-md-8 col-md-pull-4">
-			<p>MARCOS, BMU Motorsports is the SAE formula student team of BML MUNJAL University. We are a passion driven cadre of self-motivated students with varied discipline brought together by their passion for technology, innovation and creativity and work with the aim of fabricating an open wheel race car with focus on good design, reliability and performance for national and international events. In the process we learn a lot more than the usual courses in terms of practice and implementation. BMU Motorsports is fully sanctioned by the BML Munjal University, the team is supervised by both the Department of Mechanical & Mechatronics Engineering and the Faculty of Engineering.</p>
-			<p>Our MARCOS team comprises some serious design fanatics too!<br />And for the record, we use:<br />
-				<ul>
-    			<li>Siemens PLM Software NX10.0</li>
-    			<li>FEMap</li>
-    			<li>Lotus Shark</li>
-    			<li>Autodesk Flow Design</li>
-    			<li>Ricardo</li>
-    			</ul>
-			and the list goes on... 
-			</p>
-			</div>
-		</div>
-	</div>
-	<div class="car-info" id ="car">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<h3 style="letter-spacing:2px;">VEGA 1.0</h3><br>
-				<p>SVEGA 1.0, was the first F1 prototype track racing vehicle designed and fabricated by the team
-Marcos which represented the BMU SAE club in the 6 th edition of SUPRA SAEINDIA, India's biggest
-formula student competition held at Buddh International Circuit in Greater Noida. It was the result
-of the zeal and hard work which each of the team member had within them.</p><br>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-md-6">
-				<div class="sketchfab-embed-wrapper embed-responsive embed-responsive-16by9"><iframe height="100" width="100" src="https://sketchfab.com/models/d878468cd9e04277b34a74aaaa57604b/embed" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-6">
-				<div class="sketchfab-embed-wrapper embed-responsive embed-responsive-16by9"><iframe height="100" width="100" src="https://www.youtube.com/embed/HP3bgBD5pLg?rel=0&autoplay=0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-				</div>
-			</div>
-		</div><br>
-		<div class="row">
-			<div class="col-md-4" align="center">
-			<img class="vegaimg img-responsive"src="img/vega/vega2.png">
-			</div>
-			<div class="col-md-4"align="center">
-			<img class="vegaimg img-responsive"src="img/vega/vega1.jpg">
-			</div>
-			<div class="col-md-4"align="center">
-			<img class="vegaimg img-responsive"src="img/vega/vega3.png">
-			</div>
-		</div>
-</div>
-</div>
-</div>
-<div class="sponsors" id="sponsors">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <h1 style="margin-top:8%;letter-spacing:2px;text-align:center;">SPONSORS</h1><br>
-        </div>
-    </div>
-	<div class="row">
-        <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="img/bmllogo.png" style="padding-left:70px;"alt="BML Munjal Logo" >
-        </div>
-        <div class="col-xs-12 col-sm-8">
-            <h3>BML Munjal University</h3><code>Parent sponsor</code>
-            <p>BML Munjal University (BMU) is a not-for-profit initiative offering undergraduate and post-graduate courses in management (MBA and BBA) and undergraduate courses in engineering (BTech) and commerce (BCom (Hons)). The University was founded by the promoters of the Hero Group, and is named after the group's chairman and founder Brij Mohan Lall Munjal.</p>
-        </div>
-    </div>
-	<hr>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-sm-push-8">
-				<img class="img-responsive" src="img/travelexiclogo.png" style="padding: 50px;" alt="Campus Drift Logo">
-			</div>
-			<div class="col-xs-12 col-sm-8 col-sm-pull-4">
-            <h3>Travelexic Technologies</h3><code>Silver sponsor</code>
-            <p>The travel landscape is shifting from a standardized(fixed itinerary) model towards a more flexible and real time itinerary model, making conventional services offered by travel agents obsolete. We, at Travelexic, believe that we possess the tool that would allow our partners to stay ahead of the curve and provide them the much needed edge to compete with the larger, more tech savvy operators.</p>
-			</div>
-		</div>
-	</div>
-	<hr>
-	<div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="img/campusdriftlogo.png" alt="Campus Drift Logo">
-        </div>
-        <div class="col-xs-12 col-sm-8">
-            <h3>Campus Drift</h3><code>Media partner</code>
-            <p>India's coolest College Media is what you have stumbled upon. We believe that each student should be vocal about what they want as they are important pillars of a country.</p>
-        </div>
-    </div>
-	</div>
-	<hr>
-	<div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-4 col-sm-push-8">
-            <img class="img-responsive" src="img/satyamlogo.png" style="padding-top:40px;"alt="Satyam Logo">
-        </div>
-        <div class="col-xs-12 col-sm-8 col-sm-pull-4">
-            <h3>Satyam Auto Components Pvt. Ltd.</h3><code>In-kind sponsor</code>
-            <p>Satyam Auto Components Pvt. Ltd. is serving the escalating market demands for high quality automotive components. With 15 years of rich experience in the automotive industry, Satyam today is a world class manufacturer of Chassis for Motorcycles, Welded Sub-Assemblies, Fuel Tanks for two and four wheelers and Brake Booster Assemblies.</p>
-        </div>
-    </div>
-	</div>
-	<hr>
-    <div class="row">
-        <div class="col-xs-12 col-sm-4">
-            <img class="img-responsive" src="img/top2.jpg" alt="Addison">
-        </div>
-        <div class="col-xs-12 col-sm-8">
-            <h3>Addison tools:</h3><code>In-kind sponsor</code>
-            <p>One of the name in the list of India?s tool manufacturer and recognized for its high speed steel and
-			solid carbide tools is Addison tools, and also has established a strong reputation in the industry over
-			fifty years.</p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid"></div>
-<div class="parallax3"></div>
-<div  class="main1 raised">
-<div class="container-fluid">
-<div class="team" id="team">
-		<h2 style="margin-top:50px;letter-spacing:2px;text-align:center;">OUR TEAM</h2>
-		<h4 style="letter-spacing:2px;text-align:center;">Meet the amazing team behind the project</h4><hr>
-		<div class="container">
-		<div class="w3-card-4" align="center" style="margin-bottom:45px;font-weight:bold;">
-		<img class="img-circle img-responsive" src="img/sir.jpg" style="position:relative;max-height:256px;max-width:256px;">
-		<div class="w3-container w3-center">
-		<h4 style="color:#3C4858;font-weight:700;">Mr. Surya Prakash</h4>
-		<h5 style="color:#6c757d;font-weight:700;">Faculty Mentors</h5>
-		<p style="font-size:14px;color: #999">
-	"I really enjoy being with the BMU SAE Collegiate Club students, they are all so special. 
-	Without these student we would not be able to start this SAE Collegiate Club in BMU.I see the students grow in their ability to learn, practice and deliver at 
-various stages of SAE projects. The involvement in SAE project is important for students as they learn real engineering by doing. This helps them to fully prepare for their life outside of university. The energy of these young people is really fun to be around. Proud of you team !!!"
-		</p>
-		</div>
-		</div>
-		<div class="row">
-		<div class="col-sm-12 col-md-12" align="center" style="margin-bottom:45px;font-weight:bold;">
-		<img class="img-responsive" src="img/gauravgarg.png" style="position:relative;">
-		<div class="w3-container w3-center">
-		<h4 style="color:#3C4858;font-weight:700;">Gaurav Garg</h4>
-		<h5 style="color:#6c757d;font-weight:700;">Founder</h5>
-		<p style="font-size:14px;color: #999">
-		We are a family of self-motivated students with varied discipline brought together by their passion for technology, innovation and creativity and work with the aim of fabricating an open wheel race car with focus on good design, reliability and performance for national and international events.
-		</p>
-		</div>
-		</div>
-		</div>
-		<div class="row">
-		<div class=" col-sm-6 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-		<img class="img-circle img-responsive" src="img/kunal4.jpg" style="position:relative;">
-		<div class="w3-container w3-center">
-		<h4 style="color:#3C4858;font-weight:700;">Kunal Chopra</h4>
-		<h5 style="color:#6c757d;font-weight:700;">Chairperson</h5>
-		</div>
-		</div>
-		<div class="col-sm-6 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-		<img class="img-circle img-responsive" src="img/parv.jpg" style="position:relative;">
-		<div class="w3-container w3-center">
-		<h4 style="color:#3C4858;font-weight:700;">Parv Miglani</h4>
-		<h5 style="color:#6c757d;font-weight:700;">Vice Chairperson</h5>
-		</div>
-		</div>
-		</div>
-		<div class="row">
-			<div class=" col-sm-3 col-xs-6 col-md-3" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Design team/bhanu.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Bhanu</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Design</h5>
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Design team/Anjan.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Anjan Krishna</h3>
-			<h5 style="color:#6c757d;font-weight:700;">Design</h4>
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Design team/shubham.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Shubham Goyal</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Design</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Suspension team/abhishesk.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Abhishek Aggarwal</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Suspension</h5>
-			
-			</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Suspension team/Archit Gupta.png" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Archit Gupta</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Suspension</h5>
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Power Train/Sharan Srinivasan.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Sharan Srinivasan</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Power Train</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Suspension team/aastha.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Aastha</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Suspension</h5>
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Power Train/Vaibhav Deshikan.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Vaibhav Deshikan</h3>
-			<h5 style="color:#6c757d;font-weight:700;">Power Train</h4>
-			
-			</div>
-			</div>
-		</div>
-	
-		<div class="row">
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Steering team/Sambhav Rathuri.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Sambhav Rathuri</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Steering</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Steering team/Nitesh kumar.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Nitesh kumar</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Steering</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Drive Train/Shivam Vyas.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Shivam Vyas</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Drive Train</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Ergonomics/Swastik.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Swastik</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Ergonomics</h5>
-			
-			</div>
-			</div>
-		</div>
-		<div class="row">	
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Sponsorship Team/Siddhartha Agarwal.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Siddhartha Agarwal</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Sponsorship</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Brakes team/Shikshaa.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Shikshaa</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Braking</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/Brakes team/Aman.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Aman Singh</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Braking</h5>
-			
-			</div>
-			</div>
-			<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
-			<img class="img-circle img-responsive" src="img/guneet.jpg" style="position:relative;">
-			<div class="w3-container w3-center">
-			<h4 style="color:#3C4858;font-weight:700;">Guneet Kaur</h4>
-			<h5 style="color:#6c757d;font-weight:700;">Web Designer</h5>
-			
-			</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-<div class="container-fluid">
-	<div class="team1" id="alumni">
-	<br>
-	<h1 align="center" style="letter-spacing:2px;text-align:center; font-weight:bold">ALUMNI</h1><br>
-	<div class="container" style="color:#337ab7">
-    <div class="row">
-    <div class="col-xs-6 col-sm-3 col-sm-offset-2">
-        <h4>Rishabh Rai</h4><span class="badge">Vice Chairperson</span>
-    </div>
-    <div class="col-xs-6 col-sm-3">
-        <h4>Om Jagtap</h4><span class="badge">Secretary</span>
-    </div>
-    <div class="col-xs-6 col-sm-3">
-        <h4>Gagan Bajpai</h4><span class="badge">Company Relations</span>
-    </div>
-    <div class="col-xs-6 col-sm-3 col-sm-offset-2">
-        <h4>Ujjwal Garg</h4><span class="badge">Design Team</span>
-    </div>
-    <div class="col-xs-6 col-sm-3">
-        <h4>Akshay Kumar</h4><span class="badge">Design Team</span>
-    </div>
-    <div class="col-xs-6 col-sm-3">
-        <h4>Rahul Dang</h4><span class="badge">Design Team</span>
-    </div>
-    <div class="col-xs-6 col-sm-3 col-sm-offset-2">
-        <h4>Priyam Aggarwal</h4><span class="badge">Saftey &amp; Ergonomics</span>
-    </div>
-    <div class="col-xs-6 col-sm-3">
-        <h4>Sandeep Gurjar</h4><span class="badge">Powertrain Lead</span>
-    </div>
-    <div class="col-xs-6 col-sm-2">
-        <h4>Vikrant Singh</h4><span class="badge">Drivetrain Lead</span>
-    </div>
-    <div class="col-xs-6 col-sm-3 col-sm-offset-2">
-        <h4>Amit Kumar</h4><span class="badge">Brakes Lead</span>
-    </div>
-    <div class="col-xs-6 col-sm-3">
-        <h4>Kunal Chopra</h4><span class="badge">Suspension Lead</span>
-    </div>
-    <div class="col-xs-6 col-sm-2">
-        <h4>Ravi Teja</h4><span class="badge">Steering Lead</span>
-    </div>
-    </div>
-    <br>
-    <br>
-    <div class="container">
-        <h4 align="center" style="color:black;">Men on the Steering Wheel</h4>
-                <h4 align="center">Parv Miglani</h4>
-                <h4 align="center">Gaurav Rawat</h4>
-    </div>
-	</div>
-	<hr class="container" >
-	<div class="container" style="color:#337ab7">
-    <div class="col-xs-12 col-sm-4 col-sm-offset-3">
-        <h4>Sanjeev Sharma</h4><span class="badge">Web Designing</span>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-        <h4>Ravish Sharma</h4><span class="badge">Graphics Designing</span>
-    </div>
-	</div>
-	</div>
-</div>
-<div class="container-fluid">
-	<div class="gallery"id="gallery" align="center">
-	<br>
-	<h1 align="center" style="margin-top:-15px;letter-spacing:2px;text-align:center; font-weight:bold">GALLERY</h1><br>
-	<div class="row">
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal9.png">
-		</div>
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal2.png">
-		</div>
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal3.jpg">
-		</div>
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal7.png">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-6 col-sm-6">
-		<img class="img1 img-responsive"src="img/gallery/gal8.jpg">
-		</div>
-		<div class="col-xs-6 col-sm-6">
-		<img class="img1 img-responsive"src="img/gallery/gal4.png">
-		</div>
-	</div>
-	<br>
-	<a class="showmore" style="float:right;" href="#more" onclick="showgal('more')">Show More</a>
 	<script>
-	function showgal(id) {
-    document.getElementById(id).style.display = 'block';
-}
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-101601478-1', 'auto');
+		ga('send', 'pageview');
+
 	</script>
-	<div id="more" style="display:none">
-	<div class="row">
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal11.jpg">
-		</div>
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal6.png">
-		</div>
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal5.png">
-		</div>
-		<div class="col-xs-6 col-sm-3">
-		<img class="img1 img-responsive"src="img/gallery/gal1.jpg">
-		</div>
-		
-	</div>
-	<div class="row">
-		<div class="col-xs-6 col-sm-6">
-		<img class="img1 img-responsive"src="img/gallery/gal10.jpg">
-		</div>
-	</div>
-	</div>
-	</div>
-</div>
-</div>
-<div class="parallax1">
-</div>
-<div class="container-fluid">
-<footer class="row-footer footer-section" id="contact">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
-            <div class="row">
-                    <form id="contact-form" method="post" action="contact.php" role="form">
-                        <div class="messages"></div>
-                        <div class="controls">
-						<h2>Have any Query?</h2>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label for="form_name">Firstname *</label>
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Lastname *</label>
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label for="form_phone">Phone</label>
-                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_message">Message *</label>
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Enter your Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-            </div> 
-        </div>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand"><p align="center">BMU SAE</p>
+				</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right ">
+					<li class="active"><a class="head" href="#home">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#car">Our Car</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Membership<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#team">Team</a></li>
+							<li class="divider"></li>
+							<li><a href="#alumni">Alumni</a></li>
+						</ul>
+					</li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="parallax">
+		<div class="container-fluid" id="home">
+			<div class="intro">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<h1>MARCOS</h1>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<p>
+							SAE collegiate club of BMU provides a platform for young gearheads to show their aptitude in the fields of 3D modelling,
+							design, analysis, and manufacturing of automobiles, irrespective of their engineering discipline. It is a place where
+							teamwork is not aspired, but achieved, and the concept of team synergy comes to life and each of the individual's
+							potential is harnessed and nurtured. Each member's complementing ability to the others is what holds and strengthens
+							the bond between its members which helps them to learn and grow.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main main-raised">
+		<div class="container-fluid">
+			<div class="team-text" id="about">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<h3 style="letter-spacing:2px;">Team Marcos</h3><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-sm-push-8 col-md-4 col-md-push-8">
+						<img src="img/teamlogo.png" class="img-responsive center-block" alt="Team Logo">
+					</div>
+					<div class="col-xs-12 col-sm-8 col-sm-pull-4 col-md-8 col-md-pull-4">
+						<p>MARCOS, BMU Motorsports is the SAE formula student team of BML MUNJAL University. We are a passion driven cadre
+							of self-motivated students with varied discipline brought together by their passion for technology, innovation and
+							creativity and work with the aim of fabricating an open wheel race car with focus on good design, reliability and
+							performance for national and international events. In the process we learn a lot more than the usual courses in terms
+							of practice and implementation. BMU Motorsports is fully sanctioned by the BML Munjal University, the team is supervised
+							by both the Department of Mechanical & Mechatronics Engineering and the Faculty of Engineering.</p>
+						<p>Our MARCOS team comprises some serious design fanatics too!<br />And for the record, we use:<br />
+							<ul>
+								<li>Siemens PLM Software NX10.0</li>
+								<li>FEMap</li>
+								<li>Lotus Shark</li>
+								<li>Autodesk Flow Design</li>
+								<li>Ricardo</li>
+							</ul>
+							and the list goes on...
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-info" id="car">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<h3 style="letter-spacing:2px;">VEGA 1.0</h3><br>
+						<p>SVEGA 1.0, was the first F1 prototype track racing vehicle designed and fabricated by the team Marcos which represented
+							the BMU SAE club in the 6 th edition of SUPRA SAEINDIA, India's biggest formula student competition held at Buddh
+							International Circuit in Greater Noida. It was the result of the zeal and hard work which each of the team member
+							had within them.</p><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-6">
+						<div class="sketchfab-embed-wrapper embed-responsive embed-responsive-16by9"><iframe height="100" width="100" src="https://sketchfab.com/models/d878468cd9e04277b34a74aaaa57604b/embed"
+							 allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-6">
+						<div class="sketchfab-embed-wrapper embed-responsive embed-responsive-16by9"><iframe height="100" width="100" src="https://www.youtube.com/embed/HP3bgBD5pLg?rel=0&autoplay=0"
+							 allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+						</div>
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-md-4" align="center">
+						<img class="vegaimg img-responsive" src="img/vega/vega2.png">
+					</div>
+					<div class="col-md-4" align="center">
+						<img class="vegaimg img-responsive" src="img/vega/vega1.jpg">
+					</div>
+					<div class="col-md-4" align="center">
+						<img class="vegaimg img-responsive" src="img/vega/vega3.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sponsors" id="sponsors">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h1 style="margin-top:8%;letter-spacing:2px;text-align:center;">PAST SPONSORS</h1><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4">
+				<img class="img-responsive" src="img/bmllogo.png" style="padding-left:70px;" alt="BML Munjal Logo">
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<h3>BML Munjal University</h3><code>Parent sponsor</code>
+				<p>BML Munjal University (BMU) is a not-for-profit initiative offering undergraduate and post-graduate courses in management
+					(MBA and BBA) and undergraduate courses in engineering (BTech) and commerce (BCom (Hons)). The University was founded
+					by the promoters of the Hero Group, and is named after the group's chairman and founder Brij Mohan Lall Munjal.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-sm-push-8">
+					<img class="img-responsive" src="img/travelexiclogo.png" style="padding: 50px;" alt="Campus Drift Logo">
+				</div>
+				<div class="col-xs-12 col-sm-8 col-sm-pull-4">
+					<h3>Travelexic Technologies</h3><code>Silver sponsor</code>
+					<p>The travel landscape is shifting from a standardized(fixed itinerary) model towards a more flexible and real time
+						itinerary model, making conventional services offered by travel agents obsolete. We, at Travelexic, believe that we
+						possess the tool that would allow our partners to stay ahead of the curve and provide them the much needed edge to
+						compete with the larger, more tech savvy operators.</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<img class="img-responsive" src="img/campusdriftlogo.png" alt="Campus Drift Logo">
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<h3>Campus Drift</h3><code>Media partner</code>
+					<p>India's coolest College Media is what you have stumbled upon. We believe that each student should be vocal about
+						what they want as they are important pillars of a country.</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-sm-push-8">
+					<img class="img-responsive" src="img/satyamlogo.png" style="padding-top:40px;" alt="Satyam Logo">
+				</div>
+				<div class="col-xs-12 col-sm-8 col-sm-pull-4">
+					<h3>Satyam Auto Components Pvt. Ltd.</h3><code>In-kind sponsor</code>
+					<p>Satyam Auto Components Pvt. Ltd. is serving the escalating market demands for high quality automotive components.
+						With 15 years of rich experience in the automotive industry, Satyam today is a world class manufacturer of Chassis
+						for Motorcycles, Welded Sub-Assemblies, Fuel Tanks for two and four wheelers and Brake Booster Assemblies.</p>
+				</div>
+			</div>
+		</div>
 		<hr>
 		<div class="row">
-			<div class="col-md-2 col-sm-3" style="padding-right:0px;">
-				<img class="img-responsive" src="img/bmllogo.png" alt="BML Munjal University" height="150" width="150" >
+			<div class="col-xs-12 col-sm-4">
+				<img class="img-responsive" src="img/top2.jpg" alt="Addison">
+			</div>
+			<div class="col-xs-12 col-sm-8">
+				<h3>Addison tools:</h3><code>In-kind sponsor</code>
+				<p>One of the name in the list of India?s tool manufacturer and recognized for its high speed steel and solid carbide
+					tools is Addison tools, and also has established a strong reputation in the industry over fifty years.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid"></div>
+	<div class="parallax3"></div>
+	<div class="main1 raised">
+		<div class="container-fluid">
+			<div class="team" id="team">
+				<h2 style="margin-top:50px;letter-spacing:2px;text-align:center;">OUR TEAM</h2>
+				<h4 style="letter-spacing:2px;text-align:center;">Meet the amazing team behind the project</h4>
+				<hr>
+				<div class="container">
+					<div class="w3-card-4" align="center" style="margin-bottom:45px;font-weight:bold;">
+						<img class="img-circle img-responsive" src="img/sir.jpg" style="position:relative;max-height:256px;max-width:256px;">
+						<div class="w3-container w3-center">
+							<h4 style="color:#3C4858;font-weight:700;">Mr. Surya Prakash</h4>
+							<h5 style="color:#6c757d;font-weight:700;">Faculty Mentors</h5>
+							<p style="font-size:14px;color: #999">
+								"I really enjoy being with the BMU SAE Collegiate Club students, they are all so special. Without these student we would
+								not be able to start this SAE Collegiate Club in BMU.I see the students grow in their ability to learn, practice
+								and deliver at various stages of SAE projects. The involvement in SAE project is important for students as they learn
+								real engineering by doing. This helps them to fully prepare for their life outside of university. The energy of these
+								young people is really fun to be around. Proud of you team !!!"
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-12" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-responsive" src="img/gauravgarg.png" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Gaurav Garg</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Founder</h5>
+								<p style="font-size:14px;color: #999">
+									We are a family of self-motivated students with varied discipline brought together by their passion for technology, innovation
+									and creativity and work with the aim of fabricating an open wheel race car with focus on good design, reliability
+									and performance for national and international events.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class=" col-sm-6 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/kunal4.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Kunal Chopra</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Chairperson</h5>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/parv.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Parv Miglani</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Vice Chairperson</h5>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class=" col-sm-3 col-xs-6 col-md-3" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Design team/bhanu.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Bhanu</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Design</h5>
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Design team/Anjan.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Anjan Krishna
+									</h3>
+									<h5 style="color:#6c757d;font-weight:700;">Design
+								</h4>
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Design team/shubham.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Shubham Goyal</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Design</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Suspension team/abhishesk.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Abhishek Aggarwal</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Suspension</h5>
+
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Suspension team/Archit Gupta.png" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Archit Gupta</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Suspension</h5>
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Power Train/Sharan Srinivasan.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Sharan Srinivasan</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Power Train</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6 " align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Suspension team/aastha.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Aastha</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Suspension</h5>
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Power Train/Vaibhav Deshikan.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Vaibhav Deshikan
+									</h3>
+									<h5 style="color:#6c757d;font-weight:700;">Power Train
+								</h4>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Steering team/Sambhav Rathuri.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Sambhav Rathuri</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Steering</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Steering team/Nitesh kumar.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Nitesh kumar</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Steering</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Drive Train/Shivam Vyas.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Shivam Vyas</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Drive Train</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Ergonomics/Swastik.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Swastik</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Ergonomics</h5>
+
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Sponsorship Team/Siddhartha Agarwal.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Siddhartha Agarwal</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Sponsorship</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Brakes team/Shikshaa.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Shikshaa</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Braking</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/Brakes team/Aman.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Aman Singh</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Braking</h5>
+
+							</div>
+						</div>
+						<div class=" col-sm-3 col-xs-6" align="center" style="margin-bottom:45px;font-weight:bold;">
+							<img class="img-circle img-responsive" src="img/guneet.jpg" style="position:relative;">
+							<div class="w3-container w3-center">
+								<h4 style="color:#3C4858;font-weight:700;">Guneet Kaur</h4>
+								<h5 style="color:#6c757d;font-weight:700;">Web Designer</h5>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="team1" id="alumni">
+			<br>
+			<h1 align="center" style="letter-spacing:2px;text-align:center; font-weight:bold">ALUMNI</h1><br>
+			<div class="container" style="color:#337ab7">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-sm-offset-2">
+						<h4>Rishabh Rai</h4><span class="badge">Vice Chairperson</span>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4>Om Jagtap</h4><span class="badge">Secretary</span>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4>Gagan Bajpai</h4><span class="badge">Company Relations</span>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-sm-offset-2">
+						<h4>Ujjwal Garg</h4><span class="badge">Design Team</span>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4>Akshay Kumar</h4><span class="badge">Design Team</span>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4>Rahul Dang</h4><span class="badge">Design Team</span>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-sm-offset-2">
+						<h4>Priyam Aggarwal</h4><span class="badge">Saftey &amp; Ergonomics</span>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4>Sandeep Gurjar</h4><span class="badge">Powertrain Lead</span>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h4>Vikrant Singh</h4><span class="badge">Drivetrain Lead</span>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-sm-offset-2">
+						<h4>Amit Kumar</h4><span class="badge">Brakes Lead</span>
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<h4>Kunal Chopra</h4><span class="badge">Suspension Lead</span>
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<h4>Ravi Teja</h4><span class="badge">Steering Lead</span>
+					</div>
+				</div>
 				<br>
+				<br>
+				<div class="container">
+					<h4 align="center" style="color:black;">Men on the Steering Wheel</h4>
+					<h4 align="center">Parv Miglani</h4>
+					<h4 align="center">Gaurav Rawat</h4>
+				</div>
 			</div>
-			<div class="col-md-6 col-sm-4" style="padding-left:5px;">
-				<h4> Address </h4>
-				<address>
-				BML Munjal University <br>
-				67th Milestone, NH 8 <br>
-				Near Fortune Park Orange <br>
-				Gurugram(Haryana) <br> <br>
-				<img class="img responsive" src="img/phone.png">Tel: +1800 103 6888 <br>
-                <span class="glyphicon glyphicon-envelope"></span><a href="http://www.bml.edu.in" target="_blank"> www.bml.edu.in</a>
-				</address>
-			</div>
-			<div class="col-md-4 col-sm-4">
-                <h4>Join Us</h4>
-				<a href="#"><img class="img responsive" src="img/Insta.png"></a>
-				<a href="#"><img class="img responsive" src="img/youtube.png"></a>
-				<a href="#"><img class="img responsive" src="img/facebook.png"></a>
+			<hr class="container">
+			<div class="container" style="color:#337ab7">
+				<div class="col-xs-12 col-sm-4 col-sm-offset-3">
+					<h4>Sanjeev Sharma</h4><span class="badge">Web Designing</span>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<h4>Ravish Sharma</h4><span class="badge">Graphics Designing</span>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-12">
-                <p align="center">Made with love by Guneet Kaur<img class="img responsive" src="img/heart.png"></p>
+	</div>
+	<div class="container-fluid">
+		<div class="gallery" id="gallery" align="center">
+			<br>
+			<h1 align="center" style="margin-top:-15px;letter-spacing:2px;text-align:center; font-weight:bold">GALLERY</h1><br>
+			<div class="row">
+				<div class="col-xs-6 col-sm-3">
+					<img class="img1 img-responsive" src="img/gallery/gal9.png">
+				</div>
+				<div class="col-xs-6 col-sm-3">
+					<img class="img1 img-responsive" src="img/gallery/gal2.png">
+				</div>
+				<div class="col-xs-6 col-sm-3">
+					<img class="img1 img-responsive" src="img/gallery/gal3.jpg">
+				</div>
+				<div class="col-xs-6 col-sm-3">
+					<img class="img1 img-responsive" src="img/gallery/gal7.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-sm-6">
+					<img class="img1 img-responsive" src="img/gallery/gal8.jpg">
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<img class="img1 img-responsive" src="img/gallery/gal4.png">
+				</div>
+			</div>
+			<br>
+			<a class="showmore" style="float:right;" href="#more" onclick="showgal('more')">Show More</a>
+			<script>
+				function showgal(id) {
+					document.getElementById(id).style.display = 'block';
+				}
+			</script>
+			<div id="more" style="display:none">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3">
+						<img class="img1 img-responsive" src="img/gallery/gal11.jpg">
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<img class="img1 img-responsive" src="img/gallery/gal6.png">
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<img class="img1 img-responsive" src="img/gallery/gal5.png">
+					</div>
+					<div class="col-xs-6 col-sm-3">
+						<img class="img1 img-responsive" src="img/gallery/gal1.jpg">
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6">
+						<img class="img1 img-responsive" src="img/gallery/gal10.jpg">
+					</div>
+				</div>
 			</div>
 		</div>
-</footer>
-</div>
+	</div>
+	</div>
+	<div class="parallax1">
+	</div>
+	<div class="container-fluid">
+		<footer class="row-footer footer-section" id="contact">
+			<div class="container">
+				<div class="row">
+					<form id="contact-form" method="post" action="contact.php" role="form">
+						<div class="messages"></div>
+						<div class="controls">
+							<h2>Have any Query?</h2>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="form_name">Firstname *</label>
+										<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required"
+										 data-error="Firstname is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="form_lastname">Lastname *</label>
+										<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required"
+										 data-error="Lastname is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="form_email">Email *</label>
+										<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required"
+										 data-error="Valid email is required.">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<label for="form_phone">Phone</label>
+										<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="form_message">Message *</label>
+										<textarea id="form_message" name="message" class="form-control" placeholder="Enter your Message" rows="4" required="required"
+										 data-error="Please,leave us a message."></textarea>
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<input type="submit" class="btn btn-success btn-send" value="Send message">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-2 col-sm-3" style="padding-right:0px;">
+					<img class="img-responsive" src="img/bmllogo.png" alt="BML Munjal University" height="150" width="150">
+					<br>
+				</div>
+				<div class="col-md-6 col-sm-4" style="padding-left:5px;">
+					<h4> Address </h4>
+					<address>
+						BML Munjal University <br> 67th Milestone, NH 8 <br> Near Fortune Park Orange <br> Gurugram(Haryana) <br> <br>
+						<img class="img responsive" src="img/phone.png">Tel: +1800 103 6888 <br>
+						<span class="glyphicon glyphicon-envelope"></span><a href="http://www.bml.edu.in" target="_blank"> www.bml.edu.in</a>
+					</address>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<h4>Join Us</h4>
+					<a href="#"><img class="img responsive" src="img/Insta.png"></a>
+					<a href="#"><img class="img responsive" src="img/youtube.png"></a>
+					<a href="#"><img class="img responsive" src="img/facebook.png"></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12">
+					<p align="center">Made with love by Guneet Kaur<img class="img responsive" src="img/heart.png"></p>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
+
 </html>
