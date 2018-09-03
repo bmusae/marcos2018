@@ -21,7 +21,7 @@
 }
 .parallax {
     height: 600px;
-	background-image:url(img/back.jpg);
+	background-image:url(img/background-comp.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
